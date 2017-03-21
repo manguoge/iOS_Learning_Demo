@@ -1,0 +1,334 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FBF7A7D61E8169FD00C5B01C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FBF7A7D51E8169FD00C5B01C /* main.m */; };
+		FBF7A7D91E8169FD00C5B01C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FBF7A7D81E8169FD00C5B01C /* AppDelegate.m */; };
+		FBF7A7DC1E8169FD00C5B01C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FBF7A7DB1E8169FD00C5B01C /* ViewController.m */; };
+		FBF7A7DF1E8169FD00C5B01C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FBF7A7DD1E8169FD00C5B01C /* Main.storyboard */; };
+		FBF7A7E21E8169FD00C5B01C /* LalightL.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = FBF7A7E01E8169FD00C5B01C /* LalightL.xcdatamodeld */; };
+		FBF7A7E41E8169FD00C5B01C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FBF7A7E31E8169FD00C5B01C /* Assets.xcassets */; };
+		FBF7A7E71E8169FD00C5B01C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FBF7A7E51E8169FD00C5B01C /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		FBF7A7D11E8169FD00C5B01C /* LalightL.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LalightL.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FBF7A7D51E8169FD00C5B01C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FBF7A7D71E8169FD00C5B01C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		FBF7A7D81E8169FD00C5B01C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FBF7A7DA1E8169FD00C5B01C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		FBF7A7DB1E8169FD00C5B01C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		FBF7A7DE1E8169FD00C5B01C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FBF7A7E11E8169FD00C5B01C /* LalightL.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = LalightL.xcdatamodel; sourceTree = "<group>"; };
+		FBF7A7E31E8169FD00C5B01C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FBF7A7E61E8169FD00C5B01C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FBF7A7E81E8169FD00C5B01C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FBF7A7CE1E8169FD00C5B01C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FBF7A7C81E8169FD00C5B01C = {
+			isa = PBXGroup;
+			children = (
+				FBF7A7D31E8169FD00C5B01C /* LalightL */,
+				FBF7A7D21E8169FD00C5B01C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FBF7A7D21E8169FD00C5B01C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FBF7A7D11E8169FD00C5B01C /* LalightL.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FBF7A7D31E8169FD00C5B01C /* LalightL */ = {
+			isa = PBXGroup;
+			children = (
+				FBF7A7D71E8169FD00C5B01C /* AppDelegate.h */,
+				FBF7A7D81E8169FD00C5B01C /* AppDelegate.m */,
+				FBF7A7DA1E8169FD00C5B01C /* ViewController.h */,
+				FBF7A7DB1E8169FD00C5B01C /* ViewController.m */,
+				FBF7A7DD1E8169FD00C5B01C /* Main.storyboard */,
+				FBF7A7E31E8169FD00C5B01C /* Assets.xcassets */,
+				FBF7A7E51E8169FD00C5B01C /* LaunchScreen.storyboard */,
+				FBF7A7E81E8169FD00C5B01C /* Info.plist */,
+				FBF7A7E01E8169FD00C5B01C /* LalightL.xcdatamodeld */,
+				FBF7A7D41E8169FD00C5B01C /* Supporting Files */,
+			);
+			path = LalightL;
+			sourceTree = "<group>";
+		};
+		FBF7A7D41E8169FD00C5B01C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FBF7A7D51E8169FD00C5B01C /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FBF7A7D01E8169FD00C5B01C /* LalightL */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FBF7A7EB1E8169FD00C5B01C /* Build configuration list for PBXNativeTarget "LalightL" */;
+			buildPhases = (
+				FBF7A7CD1E8169FD00C5B01C /* Sources */,
+				FBF7A7CE1E8169FD00C5B01C /* Frameworks */,
+				FBF7A7CF1E8169FD00C5B01C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LalightL;
+			productName = LalightL;
+			productReference = FBF7A7D11E8169FD00C5B01C /* LalightL.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FBF7A7C91E8169FD00C5B01C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = ronghua_li;
+				TargetAttributes = {
+					FBF7A7D01E8169FD00C5B01C = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = W95B5QABWP;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = FBF7A7CC1E8169FD00C5B01C /* Build configuration list for PBXProject "LalightL" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FBF7A7C81E8169FD00C5B01C;
+			productRefGroup = FBF7A7D21E8169FD00C5B01C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FBF7A7D01E8169FD00C5B01C /* LalightL */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FBF7A7CF1E8169FD00C5B01C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FBF7A7E71E8169FD00C5B01C /* LaunchScreen.storyboard in Resources */,
+				FBF7A7E41E8169FD00C5B01C /* Assets.xcassets in Resources */,
+				FBF7A7DF1E8169FD00C5B01C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FBF7A7CD1E8169FD00C5B01C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FBF7A7DC1E8169FD00C5B01C /* ViewController.m in Sources */,
+				FBF7A7D91E8169FD00C5B01C /* AppDelegate.m in Sources */,
+				FBF7A7E21E8169FD00C5B01C /* LalightL.xcdatamodeld in Sources */,
+				FBF7A7D61E8169FD00C5B01C /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		FBF7A7DD1E8169FD00C5B01C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FBF7A7DE1E8169FD00C5B01C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FBF7A7E51E8169FD00C5B01C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FBF7A7E61E8169FD00C5B01C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FBF7A7E91E8169FD00C5B01C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		FBF7A7EA1E8169FD00C5B01C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FBF7A7EC1E8169FD00C5B01C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = W95B5QABWP;
+				INFOPLIST_FILE = LalightL/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hitszcerc.LalightL;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FBF7A7ED1E8169FD00C5B01C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = W95B5QABWP;
+				INFOPLIST_FILE = LalightL/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hitszcerc.LalightL;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FBF7A7CC1E8169FD00C5B01C /* Build configuration list for PBXProject "LalightL" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FBF7A7E91E8169FD00C5B01C /* Debug */,
+				FBF7A7EA1E8169FD00C5B01C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FBF7A7EB1E8169FD00C5B01C /* Build configuration list for PBXNativeTarget "LalightL" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FBF7A7EC1E8169FD00C5B01C /* Debug */,
+				FBF7A7ED1E8169FD00C5B01C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		FBF7A7E01E8169FD00C5B01C /* LalightL.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				FBF7A7E11E8169FD00C5B01C /* LalightL.xcdatamodel */,
+			);
+			currentVersion = FBF7A7E11E8169FD00C5B01C /* LalightL.xcdatamodel */;
+			path = LalightL.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = FBF7A7C91E8169FD00C5B01C /* Project object */;
+}
