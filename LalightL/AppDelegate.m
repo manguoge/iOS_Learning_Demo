@@ -15,12 +15,54 @@
 @implementation AppDelegate
 
 
-- (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+- (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
+{
+    UIWindow *window=[[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+    self.window=window;
+    self.window.backgroundColor=[UIColor whiteColor];
+    [self.window makeKeyAndVisible];
+    [[UIApplication sharedApplication] setStatusBarStyle:UIStatusBarStyleLightContent];
+    [[UINavigationBar appearance] setTintColor:HexRGB(kThemeColor)];
+    //1.判断是否是第一次登陆，显示导航页
+    //1.1取出沙盒存储的上一版本号
+    NSString *versionKey=(NSString*)kCFBundleVersionKey;
+    NSString* lastVersionNum=[[NSUserDefaults standardUserDefaults] stringForKey:versionKey];
+    //1.2取出plist文件的当前版本号
+    NSString *currentVersionNum=[[[NSBundle mainBundle] infoDictionary] objectForKey:versionKey];
+    
+    //1.3非第一次登陆
+    if ([lastVersionNum isEqualToString:currentVersionNum])
+    {
+        NSLog(@"不是第一次登陆：%@，%@",lastVersionNum,currentVersionNum);
+        [self startByMainVC];
+    }
+    //1.4第一次登陆
+    else
+    {
+        NSLog(@"第一次登陆：%@，%@",lastVersionNum,currentVersionNum);
+        [[NSUserDefaults standardUserDefaults] setObject:currentVersionNum forKey:versionKey];
+        [[NSUserDefaults standardUserDefaults] synchronize];
+        SZGuideVC *guideVC=[[SZGuideVC alloc] init];
+        guideVC.startByMainVCBlock=^void()
+        {
+            [self startByMainVC];
+        };
+        self.window.rootViewController=guideVC;
+    }
     return YES;
 }
 
-
+-(void)startByMainVC
+{
+    SZLeftVC *leftVC=[[SZLeftVC alloc] init];
+    SZCenterVC *centerVC=[[SZCenterVC alloc] init];
+    //将leftVC和centerVC保存在Applegate
+    self.leftVC=leftVC;
+    self.centerVC=centerVC;
+    SZMainVC *mainVC=[[SZMainVC alloc] initWithLeftVC:leftVC andCenterVC:centerVC];
+    self.mainVC=mainVC;
+    self.window.rootViewController=mainVC;
+}
 - (void)applicationWillResignActive:(UIApplication *)application {
     // Sent when the application is about to move from active to inactive state. This can occur for certain types of temporary interruptions (such as an incoming phone call or SMS message) or when the user quits the application and it begins the transition to the background state.
     // Use this method to pause ongoing tasks, disable timers, and invalidate graphics rendering callbacks. Games should use this method to pause the game.

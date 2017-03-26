@@ -1,0 +1,24 @@
+//
+//  PrefixHeader.pch
+//  LalightL
+//
+//  Created by comfouriertech on 17/3/22.
+//  Copyright © 2017年 ronghua_li. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+// 定义这个常量，就可以不用在开发过程中使用"mas_"前缀。
+#define MAS_SHORTHAND
+// 定义这个常量，就可以让Masonry帮我们自动把基础数据类型的数据，自动装箱为对象类型。
+#define MAS_SHORTHAND_GLOBALS
+#import "Masonry.h"
+#import "DefaultConfig.h"
+
+// 自定义Log
+#ifdef DEBUG // 调试
+#define NSLog(...) NSLog(__VA_ARGS__)
+#else // 发布打包
+#define NSLog(...)
+#endif
+#endif /* PrefixHeader_pch */
