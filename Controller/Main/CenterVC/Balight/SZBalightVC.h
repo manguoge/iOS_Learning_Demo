@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 #import "SZLeftVC.h"
-@interface SZBalightVC : UIViewController
+@interface SZBalightVC : UIViewController<UICollectionViewDataSource,UICollectionViewDelegate>
 
 @end

@@ -92,7 +92,7 @@
         //1移除之前选中的控制器的视图
         [self.curentSelectedVC.view removeFromSuperview];
         //2添加新选中的控制器的视图
-        CGRect mainVCViewFrame=CGRectMake(0, 0, kScreenWidth, kScreenHeight-dockH);
+        CGRect mainVCViewFrame=CGRectMake(0, 0, kScreenWidth, kScreenHeight-kDockH);
         newSelectedVC.view.frame=mainVCViewFrame;
         [self.view addSubview:newSelectedVC.view];
         //3更改选中的控制器为新选中的

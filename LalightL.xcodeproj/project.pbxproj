@@ -8,6 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		EB94D978F5885170D659721D /* libPods-LalightL.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A25C9E65138E6BB3FD5F92AB /* libPods-LalightL.a */; };
+		FBA772D11E87FA190072BCDF /* SZImageModel.m in Sources */ = {isa = PBXBuildFile; fileRef = FBA772D01E87FA190072BCDF /* SZImageModel.m */; };
+		FBA772D41E87FA4C0072BCDF /* SZImageTool.m in Sources */ = {isa = PBXBuildFile; fileRef = FBA772D31E87FA4C0072BCDF /* SZImageTool.m */; };
+		FBA772E01E88BC030072BCDF /* SZCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FBA772DF1E88BC030072BCDF /* SZCollectionViewCell.m */; };
+		FBA772E71E88E6D20072BCDF /* SZCloundTableVC.m in Sources */ = {isa = PBXBuildFile; fileRef = FBA772E61E88E6D20072BCDF /* SZCloundTableVC.m */; };
+		FBA772EE1E88FF2C0072BCDF /* SZDownloader.m in Sources */ = {isa = PBXBuildFile; fileRef = FBA772ED1E88FF2C0072BCDF /* SZDownloader.m */; };
+		FBA772F21E89134E0072BCDF /* SZDownloadTableCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FBA772F11E89134E0072BCDF /* SZDownloadTableCell.m */; };
 		FBB961AC1E84271B0019AFF2 /* UIView_extra.m in Sources */ = {isa = PBXBuildFile; fileRef = FBB961AB1E84271B0019AFF2 /* UIView_extra.m */; };
 		FBB961E01E8427B10019AFF2 /* NSArray+BFKit.m in Sources */ = {isa = PBXBuildFile; fileRef = FBB961B21E8427B10019AFF2 /* NSArray+BFKit.m */; };
 		FBB961E11E8427B10019AFF2 /* NSDate+BFKit.m in Sources */ = {isa = PBXBuildFile; fileRef = FBB961B41E8427B10019AFF2 /* NSDate+BFKit.m */; };
@@ -398,6 +404,18 @@
 		83F9AB520115EBBF497F95DF /* Pods-LalightL.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LalightL.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LalightL/Pods-LalightL.debug.xcconfig"; sourceTree = "<group>"; };
 		A25C9E65138E6BB3FD5F92AB /* libPods-LalightL.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-LalightL.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E23561BC914D5B3384DA5371 /* Pods-LalightL.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LalightL.release.xcconfig"; path = "Pods/Target Support Files/Pods-LalightL/Pods-LalightL.release.xcconfig"; sourceTree = "<group>"; };
+		FBA772CF1E87FA190072BCDF /* SZImageModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SZImageModel.h; sourceTree = "<group>"; };
+		FBA772D01E87FA190072BCDF /* SZImageModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SZImageModel.m; sourceTree = "<group>"; };
+		FBA772D21E87FA4C0072BCDF /* SZImageTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SZImageTool.h; sourceTree = "<group>"; };
+		FBA772D31E87FA4C0072BCDF /* SZImageTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SZImageTool.m; sourceTree = "<group>"; };
+		FBA772DE1E88BC030072BCDF /* SZCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SZCollectionViewCell.h; sourceTree = "<group>"; };
+		FBA772DF1E88BC030072BCDF /* SZCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SZCollectionViewCell.m; sourceTree = "<group>"; };
+		FBA772E51E88E6D20072BCDF /* SZCloundTableVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SZCloundTableVC.h; sourceTree = "<group>"; };
+		FBA772E61E88E6D20072BCDF /* SZCloundTableVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SZCloundTableVC.m; sourceTree = "<group>"; };
+		FBA772EC1E88FF2C0072BCDF /* SZDownloader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SZDownloader.h; sourceTree = "<group>"; };
+		FBA772ED1E88FF2C0072BCDF /* SZDownloader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SZDownloader.m; sourceTree = "<group>"; };
+		FBA772F01E89134E0072BCDF /* SZDownloadTableCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SZDownloadTableCell.h; path = DownoadTableCell/SZDownloadTableCell.h; sourceTree = "<group>"; };
+		FBA772F11E89134E0072BCDF /* SZDownloadTableCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SZDownloadTableCell.m; path = DownoadTableCell/SZDownloadTableCell.m; sourceTree = "<group>"; };
 		FBB961AA1E84271B0019AFF2 /* UIView_extra.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIView_extra.h; sourceTree = "<group>"; };
 		FBB961AB1E84271B0019AFF2 /* UIView_extra.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIView_extra.m; sourceTree = "<group>"; };
 		FBB961B11E8427B10019AFF2 /* NSArray+BFKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+BFKit.h"; sourceTree = "<group>"; };
@@ -882,9 +900,69 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		FBA772CE1E87F9C40072BCDF /* ImageTool */ = {
+			isa = PBXGroup;
+			children = (
+				FBA772CF1E87FA190072BCDF /* SZImageModel.h */,
+				FBA772D01E87FA190072BCDF /* SZImageModel.m */,
+				FBA772D21E87FA4C0072BCDF /* SZImageTool.h */,
+				FBA772D31E87FA4C0072BCDF /* SZImageTool.m */,
+			);
+			name = ImageTool;
+			sourceTree = "<group>";
+		};
+		FBA772D51E88AB710072BCDF /* DockView */ = {
+			isa = PBXGroup;
+			children = (
+				FBBE112F1E82C3A900018AF7 /* SZDockView.h */,
+				FBBE11301E82C3A900018AF7 /* SZDockView.m */,
+				FBBE11321E82C3BE00018AF7 /* SZDockItem.h */,
+				FBBE11331E82C3BE00018AF7 /* SZDockItem.m */,
+			);
+			name = DockView;
+			sourceTree = "<group>";
+		};
+		FBA772DD1E88BC030072BCDF /* CollectionViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				FBA772DE1E88BC030072BCDF /* SZCollectionViewCell.h */,
+				FBA772DF1E88BC030072BCDF /* SZCollectionViewCell.m */,
+			);
+			path = CollectionViewCell;
+			sourceTree = "<group>";
+		};
+		FBA772E41E88E6D20072BCDF /* CloundTableVC */ = {
+			isa = PBXGroup;
+			children = (
+				FBA772E51E88E6D20072BCDF /* SZCloundTableVC.h */,
+				FBA772E61E88E6D20072BCDF /* SZCloundTableVC.m */,
+			);
+			path = CloundTableVC;
+			sourceTree = "<group>";
+		};
+		FBA772E81E88FC9A0072BCDF /* SZdownloader */ = {
+			isa = PBXGroup;
+			children = (
+				FBA772EC1E88FF2C0072BCDF /* SZDownloader.h */,
+				FBA772ED1E88FF2C0072BCDF /* SZDownloader.m */,
+			);
+			name = SZdownloader;
+			path = SGdownloader;
+			sourceTree = "<group>";
+		};
+		FBA772EF1E8912E00072BCDF /* DownloadTableCell */ = {
+			isa = PBXGroup;
+			children = (
+				FBA772F01E89134E0072BCDF /* SZDownloadTableCell.h */,
+				FBA772F11E89134E0072BCDF /* SZDownloadTableCell.m */,
+			);
+			name = DownloadTableCell;
+			sourceTree = "<group>";
+		};
 		FBB961AD1E8427A60019AFF2 /* Lib */ = {
 			isa = PBXGroup;
 			children = (
+				FBA772E81E88FC9A0072BCDF /* SZdownloader */,
 				FBB962121E842A8C0019AFF2 /* SDWebImage */,
 				FBB961AE1E8427B10019AFF2 /* BFKit */,
 			);
@@ -1060,6 +1138,7 @@
 		FBEA16991E816B1400ABA40B /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				FBA772CE1E87F9C40072BCDF /* ImageTool */,
 			);
 			path = Model;
 			sourceTree = SOURCE_ROOT;
@@ -1067,10 +1146,9 @@
 		FBEA169A1E816B1400ABA40B /* View */ = {
 			isa = PBXGroup;
 			children = (
-				FBBE112F1E82C3A900018AF7 /* SZDockView.h */,
-				FBBE11301E82C3A900018AF7 /* SZDockView.m */,
-				FBBE11321E82C3BE00018AF7 /* SZDockItem.h */,
-				FBBE11331E82C3BE00018AF7 /* SZDockItem.m */,
+				FBA772EF1E8912E00072BCDF /* DownloadTableCell */,
+				FBA772DD1E88BC030072BCDF /* CollectionViewCell */,
+				FBA772D51E88AB710072BCDF /* DockView */,
 			);
 			path = View;
 			sourceTree = SOURCE_ROOT;
@@ -1679,6 +1757,7 @@
 			children = (
 				FBFF06511E8365AA00B70AF4 /* SZBalightVC.h */,
 				FBFF06521E8365AA00B70AF4 /* SZBalightVC.m */,
+				FBA772E41E88E6D20072BCDF /* CloundTableVC */,
 			);
 			path = Balight;
 			sourceTree = "<group>";
@@ -2148,9 +2227,11 @@
 			files = (
 				FBBE11311E82C3A900018AF7 /* SZDockView.m in Sources */,
 				FBEA16C01E81774900ABA40B /* SZGuideVC.m in Sources */,
+				FBA772D11E87FA190072BCDF /* SZImageModel.m in Sources */,
 				FBB961EB1E8427B10019AFF2 /* UIImage+BFKit.m in Sources */,
 				FBB961F31E8427B10019AFF2 /* UIWindow+BFKit.m in Sources */,
 				FBB961E61E8427B10019AFF2 /* NSString+BFKit.m in Sources */,
+				FBA772E01E88BC030072BCDF /* SZCollectionViewCell.m in Sources */,
 				FBB9623C1E842A8C0019AFF2 /* SDWebImageManager.m in Sources */,
 				FBBE11341E82C3BE00018AF7 /* SZDockItem.m in Sources */,
 				FBEA16CB1E821CB500ABA40B /* SZLeftVC.m in Sources */,
@@ -2159,6 +2240,7 @@
 				FBB962411E842A8C0019AFF2 /* UIImage+WebP.m in Sources */,
 				FBB962351E842A8C0019AFF2 /* MKAnnotationView+WebCache.m in Sources */,
 				FBB961EE1E8427B10019AFF2 /* UIScrollView+BFKit.m in Sources */,
+				FBA772F21E89134E0072BCDF /* SZDownloadTableCell.m in Sources */,
 				FBFF065B1E8365AA00B70AF4 /* SZBalightVC.m in Sources */,
 				FBB9620E1E8429AC0019AFF2 /* UIButton+Bg.m in Sources */,
 				FBB961ED1E8427B10019AFF2 /* UILabel+BFKit.m in Sources */,
@@ -2176,6 +2258,7 @@
 				FBB962401E842A8C0019AFF2 /* UIImage+MultiFormat.m in Sources */,
 				FBB961E51E8427B10019AFF2 /* NSProcessInfo+BFKit.m in Sources */,
 				FBB9623E1E842A8C0019AFF2 /* UIButton+WebCache.m in Sources */,
+				FBA772E71E88E6D20072BCDF /* SZCloundTableVC.m in Sources */,
 				FBB961EF1E8427B10019AFF2 /* UITableView+BFKit.m in Sources */,
 				FBB9623D1E842A8C0019AFF2 /* SDWebImagePrefetcher.m in Sources */,
 				FBB9620A1E8429AC0019AFF2 /* NSString+iphone.m in Sources */,
@@ -2183,6 +2266,8 @@
 				FBB962381E842A8C0019AFF2 /* SDWebImageCompat.m in Sources */,
 				FBB961EC1E8427B10019AFF2 /* UIImageView+BFKit.m in Sources */,
 				FBFF06671E8368FE00B70AF4 /* SZSettingsVC.m in Sources */,
+				FBA772EE1E88FF2C0072BCDF /* SZDownloader.m in Sources */,
+				FBA772D41E87FA4C0072BCDF /* SZImageTool.m in Sources */,
 				FBB9623F1E842A8C0019AFF2 /* UIImage+GIF.m in Sources */,
 				FBB961AC1E84271B0019AFF2 /* UIView_extra.m in Sources */,
 				FBB9620B1E8429AC0019AFF2 /* NSStringExt.m in Sources */,

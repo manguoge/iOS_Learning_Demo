@@ -7,7 +7,7 @@
 //
 
 #import "SZDockItem.h"
-#define kImageRatio 0.45
+
 @implementation SZDockItem
 
 -(instancetype)initWithFrame:(CGRect)frame

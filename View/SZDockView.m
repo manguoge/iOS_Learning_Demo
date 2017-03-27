@@ -18,16 +18,16 @@
     //底座视图的CGRect
     const CGFloat dockX=0;
     //dockH定义在宏DefaultConfig
-    const CGFloat dockY=kScreenHeight-dockH;
+    const CGFloat dockY=kScreenHeight-kDockH;
     const CGFloat dockW=kScreenWidth;
     
-    if (self=[super initWithFrame:CGRectMake(dockX, dockY, dockW, dockH)])
+    if (self=[super initWithFrame:CGRectMake(dockX, dockY, dockW, kDockH)])
     {
         //底座视图Item的个数
         NSInteger itemNum=[itemArray count];
         //每个Item的大小
         CGFloat itemW=dockW/itemNum;
-        CGFloat itemH=dockH;
+        CGFloat itemH=kDockH;
         NSDictionary *itemDict=nil;
         for (NSUInteger i=0; i<itemNum; i++)
         {

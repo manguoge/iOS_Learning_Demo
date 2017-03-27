@@ -13,6 +13,8 @@
 #define kScreenHeight [[UIScreen mainScreen] bounds].size.height
 #define kScreenBounds [[UIScreen mainScreen] bounds]
 #define kScreenSize [[UIScreen mainScreen] bounds].size
+//底座高度
+#define kImageRatio 0.45
 
 #define kThemeColor 0x20202c
 #define HexRGB(rgbValue) [UIColor colorWithRed:((float)((rgbValue & 0xFF0000) >> 16))/255.0 green:((float)((rgbValue & 0xFF00) >> 8))/255.0 blue:((float)(rgbValue & 0xFF))/255.0 alpha:1.0]
@@ -20,8 +22,8 @@
 #define kItemImageHightLight @"kItemImageHightLight"
 #define kItemTitleNormal @"kItemTitleNormal"
 #define kItemTitleHightLight @"kItemTitleHightLight"
-
-#define dockH 44
+//底座高度
+#define kDockH 44
 
 #define NSLocalizedString(key, comment) \
 [NSBundle.mainBundle localizedStringForKey:(key) value:@"" table:nil]
@@ -37,10 +39,17 @@
 #define iPhone5 ([UIScreen mainScreen].bounds.size.height == 568)
 #define APP_NAME [[[NSBundle mainBundle] infoDictionary] objectForKey:@"CFBundleDisplayName"]
 
+//图片模型归档解档
+#define kImageID @"imageID"
+#define kImageName @"imageName"
+#define kImagePath @"imagePath"
+#define kImageType @"imageType" 
+#define kImageGIF @"imageGIF"
 
+//云图库
+#define kCloudURL @"http://47.88.29.124/balight/photo/queryV22?page=0&operate=1&adaptType=0"
 
-
-
+#define kDownloadImage @"downloadID"
 
 
 
