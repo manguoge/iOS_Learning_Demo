@@ -1,9 +1,9 @@
 # iOS_Learning_Demo
 An demo include as much as possible usage and acknowledge about Object-C or iOS.
 
-##Log
+## Log
 
-###Version 0.1
+### Version 0.1
 
 * Learn about the preparation of the program welcome page
 
