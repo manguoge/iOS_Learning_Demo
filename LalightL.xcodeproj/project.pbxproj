@@ -8,6 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		EB94D978F5885170D659721D /* libPods-LalightL.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A25C9E65138E6BB3FD5F92AB /* libPods-LalightL.a */; };
+		FB4507F81E8A10D100A45991 /* SZRegistTVC.m in Sources */ = {isa = PBXBuildFile; fileRef = FB4507F71E8A10D100A45991 /* SZRegistTVC.m */; };
+		FB4507FB1E8A10EB00A45991 /* SZLoginTVC.m in Sources */ = {isa = PBXBuildFile; fileRef = FB4507FA1E8A10EB00A45991 /* SZLoginTVC.m */; };
+		FB4507FE1E8A110300A45991 /* SZForgetPasswordTVC.m in Sources */ = {isa = PBXBuildFile; fileRef = FB4507FD1E8A110300A45991 /* SZForgetPasswordTVC.m */; };
+		FB4508011E8A111900A45991 /* SZUserInfoTVC.m in Sources */ = {isa = PBXBuildFile; fileRef = FB4508001E8A111900A45991 /* SZUserInfoTVC.m */; };
 		FBA772D11E87FA190072BCDF /* SZImageModel.m in Sources */ = {isa = PBXBuildFile; fileRef = FBA772D01E87FA190072BCDF /* SZImageModel.m */; };
 		FBA772D41E87FA4C0072BCDF /* SZImageTool.m in Sources */ = {isa = PBXBuildFile; fileRef = FBA772D31E87FA4C0072BCDF /* SZImageTool.m */; };
 		FBA772E01E88BC030072BCDF /* SZCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FBA772DF1E88BC030072BCDF /* SZCollectionViewCell.m */; };
@@ -404,6 +408,14 @@
 		83F9AB520115EBBF497F95DF /* Pods-LalightL.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LalightL.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LalightL/Pods-LalightL.debug.xcconfig"; sourceTree = "<group>"; };
 		A25C9E65138E6BB3FD5F92AB /* libPods-LalightL.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-LalightL.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E23561BC914D5B3384DA5371 /* Pods-LalightL.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LalightL.release.xcconfig"; path = "Pods/Target Support Files/Pods-LalightL/Pods-LalightL.release.xcconfig"; sourceTree = "<group>"; };
+		FB4507F61E8A10D100A45991 /* SZRegistTVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SZRegistTVC.h; sourceTree = "<group>"; };
+		FB4507F71E8A10D100A45991 /* SZRegistTVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SZRegistTVC.m; sourceTree = "<group>"; };
+		FB4507F91E8A10EB00A45991 /* SZLoginTVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SZLoginTVC.h; sourceTree = "<group>"; };
+		FB4507FA1E8A10EB00A45991 /* SZLoginTVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SZLoginTVC.m; sourceTree = "<group>"; };
+		FB4507FC1E8A110300A45991 /* SZForgetPasswordTVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SZForgetPasswordTVC.h; sourceTree = "<group>"; };
+		FB4507FD1E8A110300A45991 /* SZForgetPasswordTVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SZForgetPasswordTVC.m; sourceTree = "<group>"; };
+		FB4507FF1E8A111900A45991 /* SZUserInfoTVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SZUserInfoTVC.h; sourceTree = "<group>"; };
+		FB4508001E8A111900A45991 /* SZUserInfoTVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SZUserInfoTVC.m; sourceTree = "<group>"; };
 		FBA772CF1E87FA190072BCDF /* SZImageModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SZImageModel.h; sourceTree = "<group>"; };
 		FBA772D01E87FA190072BCDF /* SZImageModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SZImageModel.m; sourceTree = "<group>"; };
 		FBA772D21E87FA4C0072BCDF /* SZImageTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SZImageTool.h; sourceTree = "<group>"; };
@@ -900,6 +912,32 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		FB4507D61E8A041D00A45991 /* LeftVC */ = {
+			isa = PBXGroup;
+			children = (
+				FBEA16C91E821CB500ABA40B /* SZLeftVC.h */,
+				FBEA16CA1E821CB500ABA40B /* SZLeftVC.m */,
+				FB4507DA1E8A050900A45991 /* LoginVC */,
+			);
+			name = LeftVC;
+			path = Controller/Main/LeftVC;
+			sourceTree = SOURCE_ROOT;
+		};
+		FB4507DA1E8A050900A45991 /* LoginVC */ = {
+			isa = PBXGroup;
+			children = (
+				FB4507F61E8A10D100A45991 /* SZRegistTVC.h */,
+				FB4507F71E8A10D100A45991 /* SZRegistTVC.m */,
+				FB4507F91E8A10EB00A45991 /* SZLoginTVC.h */,
+				FB4507FA1E8A10EB00A45991 /* SZLoginTVC.m */,
+				FB4507FC1E8A110300A45991 /* SZForgetPasswordTVC.h */,
+				FB4507FD1E8A110300A45991 /* SZForgetPasswordTVC.m */,
+				FB4507FF1E8A111900A45991 /* SZUserInfoTVC.h */,
+				FB4508001E8A111900A45991 /* SZUserInfoTVC.m */,
+			);
+			path = LoginVC;
+			sourceTree = "<group>";
+		};
 		FBA772CE1E87F9C40072BCDF /* ImageTool */ = {
 			isa = PBXGroup;
 			children = (
@@ -1167,10 +1205,7 @@
 			children = (
 				FBFF065F1E8365CA00B70AF4 /* SZMainVC.h */,
 				FBFF06601E8365CA00B70AF4 /* SZMainVC.m */,
-				FBEA16C91E821CB500ABA40B /* SZLeftVC.h */,
-				FBEA16CA1E821CB500ABA40B /* SZLeftVC.m */,
-				FBE261C31E83FE7100148FC7 /* SZCenterVC.h */,
-				FBE261C41E83FE7100148FC7 /* SZCenterVC.m */,
+				FB4507D61E8A041D00A45991 /* LeftVC */,
 				FBFF064F1E8365AA00B70AF4 /* CenterVC */,
 			);
 			name = Main;
@@ -1744,6 +1779,8 @@
 		FBFF064F1E8365AA00B70AF4 /* CenterVC */ = {
 			isa = PBXGroup;
 			children = (
+				FBE261C31E83FE7100148FC7 /* SZCenterVC.h */,
+				FBE261C41E83FE7100148FC7 /* SZCenterVC.m */,
 				FBFF06501E8365AA00B70AF4 /* Balight */,
 				FBFF06531E8365AA00B70AF4 /* Rinding */,
 				FBFF06561E8365AA00B70AF4 /* SettingsVC */,
@@ -2243,7 +2280,9 @@
 				FBA772F21E89134E0072BCDF /* SZDownloadTableCell.m in Sources */,
 				FBFF065B1E8365AA00B70AF4 /* SZBalightVC.m in Sources */,
 				FBB9620E1E8429AC0019AFF2 /* UIButton+Bg.m in Sources */,
+				FB4507FE1E8A110300A45991 /* SZForgetPasswordTVC.m in Sources */,
 				FBB961ED1E8427B10019AFF2 /* UILabel+BFKit.m in Sources */,
+				FB4507FB1E8A10EB00A45991 /* SZLoginTVC.m in Sources */,
 				FBB9623A1E842A8C0019AFF2 /* SDWebImageDownloader.m in Sources */,
 				FBB961E31E8427B10019AFF2 /* NSMutableArray+BFKit.m in Sources */,
 				FBFF06641E83687C00B70AF4 /* SZRidingVC.m in Sources */,
@@ -2262,6 +2301,7 @@
 				FBB961EF1E8427B10019AFF2 /* UITableView+BFKit.m in Sources */,
 				FBB9623D1E842A8C0019AFF2 /* SDWebImagePrefetcher.m in Sources */,
 				FBB9620A1E8429AC0019AFF2 /* NSString+iphone.m in Sources */,
+				FB4508011E8A111900A45991 /* SZUserInfoTVC.m in Sources */,
 				FBF7A7D91E8169FD00C5B01C /* AppDelegate.m in Sources */,
 				FBB962381E842A8C0019AFF2 /* SDWebImageCompat.m in Sources */,
 				FBB961EC1E8427B10019AFF2 /* UIImageView+BFKit.m in Sources */,
@@ -2274,6 +2314,7 @@
 				FBB961E81E8427B10019AFF2 /* UIColor+BFKit.m in Sources */,
 				FBB961E91E8427B10019AFF2 /* UIDevice+BFKit.m in Sources */,
 				FBB961E41E8427B10019AFF2 /* NSNumber+BFKit.m in Sources */,
+				FB4507F81E8A10D100A45991 /* SZRegistTVC.m in Sources */,
 				FBB961EA1E8427B10019AFF2 /* UIFont+BFKit.m in Sources */,
 				FBB961E71E8427B10019AFF2 /* UIButton+BFKit.m in Sources */,
 				FBB962111E8429AC0019AFF2 /* UIView+Additions.m in Sources */,

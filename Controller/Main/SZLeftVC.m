@@ -15,7 +15,7 @@
 //宏定义cell的图片和名称的key
 #define name @"name"
 #define iconImage @"iconImage"
-
+#define headerViewHeight 102
 @interface SZLeftVC ()
 
 @end
@@ -53,7 +53,32 @@ singleton_implementation(SZLeftVC);
 
 -(void)userIconTap:(UITapGestureRecognizer*)tapGesture
 {
-    
+    NSLog(@"userIconTap");
+    /*
+     NSDictionary *_usesInfoDict = [USER_DEFAULT objectForKey:kUserLogin];
+     if (_usesInfoDict.count) {
+     userAddVC *detail = [[userAddVC alloc]init];
+     detail.otherState = YES;
+     detail.usesInfoDict =_usesInfoDict;
+     UINavigationController *nav = [[UINavigationController alloc] initWithRootViewController:detail];
+     [self presentViewController:nav animated:YES completion:nil];
+     return;
+     }
+     loginVC *login = [[loginVC alloc]initWithStyle:UITableViewStyleGrouped];
+     [self presentViewController:login animated:YES completion:nil];
+     */
+    NSDictionary *userInfoDict=[[NSUserDefaults standardUserDefaults] objectForKey:kuserInfoDict];
+    if (userInfoDict.count)
+    {
+        SZUserInfoTVC *userInfoTVC=[[SZUserInfoTVC alloc] init];
+        UINavigationController *nav=[[UINavigationController alloc] initWithRootViewController:(UIViewController*)userInfoTVC];
+        [self presentViewController:nav animated:YES completion:nil];
+    }
+    else
+    {
+        SZLoginTVC *loginTVC=[[SZLoginTVC alloc] init];
+        [self presentViewController:loginTVC animated:YES completion:nil];
+    }
 }
 
 #pragma mark --tableViewDataSource
@@ -104,18 +129,18 @@ singleton_implementation(SZLeftVC);
 
 - (CGFloat)tableView:(UITableView *)tableView heightForHeaderInSection:(NSInteger)section
 {
-    return 102;
+    return headerViewHeight;
 }
 -(UIView*)tableView:(UITableView *)tableView viewForHeaderInSection:(NSInteger)section
 {
     NSLog(@"viewForHeaderInSection");
-    UIView *headerView=[[UIView alloc] initWithFrame:CGRectMake(0, 0, kScreenWidth, kScreenHeight)];
+    UIView *headerView=[[UIView alloc] initWithFrame:CGRectMake(0, 0, kScreenWidth, headerViewHeight)];
+    headerView.userInteractionEnabled=YES;
     headerView.backgroundColor=[UIColor yellowColor];
+    UITapGestureRecognizer *tapGeature=[[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(userIconTap:)];
+    [headerView addGestureRecognizer:tapGeature];
     self.tableView.tableHeaderView=headerView;
-    if (section==0)
-    {
-        
-    }
+    
     
     return headerView;
 }

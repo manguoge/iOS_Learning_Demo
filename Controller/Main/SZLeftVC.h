@@ -8,6 +8,8 @@
 
 #import <UIKit/UIKit.h>
 #import "Singleton.h"
+#import "SZUserInfoTVC.h"
+#import "SZLoginTVC.h"
 @interface SZLeftVC : UITableViewController
 @property (nonatomic,strong) NSArray *cellItemArray;
 singleton_interface(SZLeftVC);

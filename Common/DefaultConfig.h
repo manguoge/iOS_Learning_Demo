@@ -48,10 +48,7 @@
 
 //云图库
 #define kCloudURL @"http://47.88.29.124/balight/photo/queryV22?page=0&operate=1&adaptType=0"
-
 #define kDownloadImage @"downloadID"
 
-
-
-
-
+//登录注册
+#define kuserInfoDict @"userIfoDict"
