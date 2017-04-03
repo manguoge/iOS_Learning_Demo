@@ -21,4 +21,6 @@ An demo include as much as possible usage and acknowledge about Object-C or iOS.
 
 * Learn about the storage of picture data
 
-* Learn about network programming
+* Learn about network programming<br><br>
+![](https://github.com/manguoge/iOS_Learning_Demo/blob/master/resource/VC_Relation.png)<br><br><br>
+![](https://github.com/manguoge/iOS_Learning_Demo/blob/master/resource/VC_Relation.png)<br>
